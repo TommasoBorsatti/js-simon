@@ -33,7 +33,7 @@ console.log("Questi sono i numeri generati casualmente " + numeriSimon);
 
 // Stampo l'alert con i numeri da ricordare:
 
-alert("Ricorda bene i numeri " + numeriSimon);
+alert("Ricorda bene i numeri " + numeriSimon + " perché fra 30 secondi te li chiederò!");
 
 // Definisco array numeri inseriti; uso setTimeOut per inserire una funzione con delay di 30 secondi dall'alert.
 //All'interno uso un ciclo for lungo quanto l'array numeri simon e chiedo x prompt; i numeri inseriti nel prompt sono salvati in una variabile
@@ -69,3 +69,21 @@ console.log("Questi sono i numeri che hai scritto tu: " + numeriInseriti)
   console.log("Hai indovinato i numeri: " + numeriIndovinati + "; il tuo punteggio è: " + numeriIndovinati.length + " su " + numeriSimon.length + " punti massimi totalizzabili.");
 
 }, 30000);
+
+
+// LIVECODING RECAP
+
+// setTimeout(function () {
+//
+//   var valore = 50;
+//   prova(valore);
+//
+// } ,2000);
+//
+// function prova(valoreMax){
+//
+//   for (var i = 0; i < valoreMax; i++) {
+//
+//     console.log(i);
+//   }
+// }
