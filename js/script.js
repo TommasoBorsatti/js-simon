@@ -68,4 +68,4 @@ console.log("Questi sono i numeri che hai scritto tu: " + numeriInseriti)
   alert("I numeri che hai indovinato sono: " + numeriIndovinati + ". Il tuo punteggio è: " + numeriIndovinati.length);
   console.log("Hai indovinato i numeri: " + numeriIndovinati + "; il tuo punteggio è: " + numeriIndovinati.length + " su " + numeriSimon.length + " punti massimi totalizzabili.");
 
-}, 2000);
+}, 30000);
