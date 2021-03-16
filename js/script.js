@@ -46,6 +46,11 @@ setTimeout(function () {
   for (var i = 0; i < numeriSimon.length; i++) {
 
     var num = parseInt(prompt("Inserisci qui i numeri di prima, uno alla volta:"));
+
+    while (isNaN(num) || num <= 0) {
+      num = parseInt(prompt("Ti aiuto; inserisci solo valori numerici maggiori di 0"))
+    }
+
     numeriInseriti.push(num);
   }
 
